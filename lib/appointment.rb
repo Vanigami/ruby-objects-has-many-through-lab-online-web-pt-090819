@@ -6,7 +6,7 @@ class Appointment
   def initialize(date, doctor)
     @date = date
     @doctor = doctor
-    @@all << self 
+    doctor
   end
   
   def self.all
